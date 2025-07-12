@@ -181,3 +181,41 @@ a {
   position: fixed;
   top: 80px;
 }
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  /* position: absolute; */
+  height: 100vh;
+  background-image: url(../images/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  font-size: 90px;
+}
+
+.parallax-one {
+  height: 100vh;
+  background-image: url(../images/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* Large Devices -> Max-width -> 1200px */
+/* Tablets -> Max-width -> 992px */
+/* Phones -> Max-width -> 768 */
+/* Small phones  -> max-width -> 480px*/
+
+
